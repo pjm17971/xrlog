@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "check": "babel --optional runtime scripts/watch.js | node",
     "build": "rm -rf lib/* lib/ && babel src --optional runtime --stage 0 --out-dir lib",
     "watch": "webpack --watch -d",
