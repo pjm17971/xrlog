@@ -2,7 +2,7 @@
   "name": "xr",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "check": "babel --optional runtime scripts/watch.js | node",
     "build": "rm -rf lib/* lib/ && babel src --optional runtime --stage 0 --out-dir lib",
