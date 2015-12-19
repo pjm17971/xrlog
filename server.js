@@ -32,6 +32,6 @@ app.use('/', index);
 app.use('/api', api);
 
 // start
-app.listen(port);
+app.listen(process.env.PORT || 8888);
 
 console.log('Server started on port ' + port);
